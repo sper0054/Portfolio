@@ -23,11 +23,11 @@ header {
 }
 
 header h1 {
-  font-weight: bold;
+  font-weight: lighter;
   margin: 0;
   font-size: 36px;
-  color: #fff
- 
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
@@ -66,8 +66,9 @@ footer {
   
   footer h2 {
     color: #fff;
-    font-size: 30px;
+    font-weight: lighter;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
   footer div {
@@ -97,13 +98,45 @@ section {
   text-align: right;
   margin: 3.5%;
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.2;
-}
-
-.hero-text h2 {
   font-style: italic;
-  font-size: 55px;
-  color: var(--primary-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+/*-- Sections --*/
+
+.headers {
+    font-size: 48px;
+    border-bottom: 3px solid;
+    color: rgb(76, 131, 124);
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%; 
+}
+
+/*-- About --*/
+.about {
+    background:#fff;
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .bio {
+    margin: 20px;
+    flex: 1;
+    background:#fff;
+    color:rgb(0, 3, 3);
+    font-size: 16px;
+  }
+  
+  .bio img {
+    width: 100;
+  }
+  
+  /* Projects */
