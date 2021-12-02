@@ -103,23 +103,13 @@ section {
 
 /* Hero Style Start */
 .hero {
-    background-image: url("../images/hero-bg.jpeg");
-    background-size: cover;
+    background-image: url("assets/tiles.jpg");
     background-position: 80%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment:fixed;
-}
-
-.hero-cta {
-    width: 35%;
-    text-align: right;
-    margin: 3.5%;
-    color: #fff;
-    font-size: 18px;
-    line-height: 1.2;
 }
 
 .hero-cta h2 {
