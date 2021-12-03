@@ -75,7 +75,7 @@ footer {
     line-height: 1.5;
     text-align: right;
   }
-  
+
   /* Sections */
 section {
     padding: 60px;
@@ -144,4 +144,21 @@ section {
     border: 10px solid rgb(224, 206, 183);
   }
   
+  .bio p {
+    padding-top: 5%;
+  }
+  
   /* Projects */
+
+  /* Contact */
+  .contact {
+    background:#fff;
+  }
+
+  .contact ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 30px;
+  }
