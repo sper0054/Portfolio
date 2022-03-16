@@ -157,7 +157,7 @@ section {
     justify-content: space-around;
   }
   .projectone img {
-    width: 100%;
+    width: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -179,7 +179,14 @@ section {
     margin-right: auto;
     border: 5px solid rgb(224, 206, 183);
   }
-  
+  .projectfour img {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(224, 206, 183);
+  }
+
 .projects h3 {
     font-size: 24px;
     color:rgb(76, 131, 124);
